@@ -1,0 +1,12 @@
+name = "GeographicLibPy"
+uuid = "afe2f917-f8cc-440e-81af-4c07f662a5a3"
+version = "0.2.0"
+
+[deps]
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
